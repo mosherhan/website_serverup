@@ -3465,6 +3465,13 @@ figcaption {
   background-color: var(--background-color--background-primary);
 }
 
+.background-color-sec {
+  opacity: 100%;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+
 .rl-styleguide_color-spacer {
   flex-direction: column;
   justify-content: space-between;
